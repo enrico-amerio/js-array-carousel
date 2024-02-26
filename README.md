@@ -25,5 +25,5 @@ Non lasciamoci spaventare dalla complessità apparente dell’esercizio, ma anal
 ## Svolgimento
 1. Costruisco la pagina con elementi html statici di base
 2. Creo un array con tutte le immagini
-3. Creo un ciclo per generare in pagina tutte le immagini e le tab
+3. Creo un ciclo per generare in pagina tutte le immagini
 4. Creo gli eventi prima su una freccia poi sull'altra, che faranno la stessa cosa ma in maniera opposta
