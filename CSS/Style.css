@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: aquamarine;
+}
+.debug{
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid black;
+}
+.main-wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.carosel{
+  width: 60%;
+  height: 70%;
+  display: flex;
+}
+.container-img{
+  width:80%;
+}
+.container-preview{
+  width:20%;
+  position:relative;
+}
+
+.arrow.up{
+  position: relative;
+  left:50%;
+
+}
+.arrow.down{
+  position: relative;
+  left:50%;
+  top: 90%
+}
+.container-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
