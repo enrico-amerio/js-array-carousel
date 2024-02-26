@@ -1,5 +1,3 @@
-const btnUp = document.getElementById('btn-up');
-const btnDown = document.getElementById('btn-down');
 const containerImg = document.querySelector('.container-img');
 const images = ['img/01.webp', 'img/02.webp', 'img/03.webp', 'img/04.webp', 'img/05.webp'];
 let counterImg = 0;
@@ -12,6 +10,8 @@ for (i = 0; i < images.length; i++){
   containerPreview.innerHTML += `<img class="preview dark" src="${img}">`
 }
 
+const btnUp = document.getElementById('btn-up');
+const btnDown = document.getElementById('btn-down');
 const itemCollection = document.getElementsByClassName('img');
 itemCollection[counterImg].classList.remove('d-none');
 const previewCollection = document.getElementsByClassName('preview');
