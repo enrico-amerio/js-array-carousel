@@ -21,7 +21,6 @@ body{
   width: 60%;
   height: 70%;
   display: flex;
-  position:relative;
   
 }
 .container-img{
@@ -40,6 +39,7 @@ body{
   background-color: black;
   display: flex;
   flex-direction: column;
+  position:relative;
 }
 .container-preview img{
   width:100%;
@@ -56,19 +56,19 @@ body{
   justify-content: center;
   align-items: center;
   height: 30px;
-  position: relative;
-  width:30px;
+  aspect-ratio: 1/1;
+  position: absolute;
   right: 50%;
   background-color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
   border-radius: 50%;
+  z-index: 999;
 }
 .arrow.up{
   top:10px;
 }
 .arrow.down{
-  top:370px;
-  transform: translateX(-98%);
+  bottom:10px;
   
 }
 .d-none{
