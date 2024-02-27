@@ -37,7 +37,7 @@ btnDown.addEventListener('click', function(){
   previewCollection[counterImg].classList.add('dark');
 
   counterImg++
-  if (counterImg > 4) {
+  if (counterImg > images.length -1 ) {
     counterImg = 0;
   } 
   itemCollection[counterImg].classList.remove('d-none');
